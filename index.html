@@ -1,33 +1,835 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MP4 Video Player</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        video {
-            max-width: 100%;
-            max-height: 100%;
-            border: 2px solid #333;
-            border-radius: 8px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRS-GOC </title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 </head>
+
 <body>
+  <div class="loader">
+    <a href="./" class="logo">
+      <img src="images/logoheader.png" alt="" />
+    </a>
+  </div>
+  <header>
+    <div class="main-header">
+      <div class="container">
+        <div class="menu-Bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-start">
+            <a href="./" class="logo">
+              <img src="images/logoheader.png" alt="" />
+            </a>
+          </div>
+          <div class="col-md-8 text-end">
+            <div class="menuWrap">
+              <ul class="menu">
+                <li class="active"><a href="./">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li>
+                  <span>Call for consultation</span>
+                  <a href="tel:042352033513">042352033513</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <video controls>
-        <source src="butterfly.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <div class="banner_Section">
+    <div class="container-fluid pd-0">
+      <div class="row gx-0">
+        <!-- <div class="col-md-5"></div> -->
+        <div class="col-md-12">
+          <div class="right_banner">
 
+            <video width="100%" height="100%" autoplay muted loop>
+              <source src="./images/video_section/header_video.mp4" type="video/mp4">
+              <source src="./images/video_section/header_video.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner_outer">
+      <div class="bannerImage">
+        <img src="./images/header_image.png" alt="">
+      </div>
+      <div class="banner_content">
+        <h2 class="ml2">Empowering Your Business <br class="remove_on_Samll" /> with Seamless Global Solutions</h2>
+      </div>
+
+      <div class="outer_banner_last">
+         <div class="left_outer">
+          <img src="./images/tick.png" alt="">
+          <p>Efficiency, Flexibility and Quality Service with a customized Touch.</p>
+         </div>
+         <div class="right_outer">
+            <a href="tel:042352033513" class="inner_btn">Call Us Today <i class="fas fa-long-arrow-alt-right"></i></a>
+
+         </div>
+      </div>
+    </div>
+    <div class="banner_shade">
+      <img src="./images/shade_image.png" alt="">
+      
+    </div>
+
+  </div>
+
+  <section class="hm-sec1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h6 class="srs_conten">SRS Group of Companies <span>SBUS</span></h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="logoPArent">
+            <div class="logo_image">
+              <img src="images/logo2.png" alt="" />
+            </div>
+            <div class="logo_image">
+              <img src="images/logo3.png" alt="" />
+            </div>
+            <div class="logo_image">
+              <img src="images/logo4.png" alt="" />
+            </div>
+            <div class="logo_image">
+              <img src="images/logo5.png" alt="" />
+            </div>
+            <div class="logo_image">
+              <img src="images/logo6.png" alt="" />
+            </div>
+            <div class="logo_image">
+              <img src="images/logo7.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hm-sec2">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <div class="left-htm-sec2">
+            <h6 class="top_heading">About us</h6>
+            <h2 class="site_heading">
+              SRS-GOC Offers Unsurpassed Outsourcing Solution
+            </h2>
+            <p>
+              SRS-GOC has become one of the fastest growing group of companies in Pakistan which has got the representations of some of the World’s leading Airlines in a very short span of time.
+              <br/>
+              The Group comprises of a team of dedicated, professional.
+            </p>
+            <a href="aboutus.html" class="inner_btn">More About Us <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="right_hm_sec2">
+            <div class="right_htm_top">
+              <img src="images/sec21.png" class="img-fluid" alt="" />
+            </div>
+            <div class="right_htm_bottom">
+              <!-- <div class="right_bottm1">
+                  <div class="left_right_bottom1">
+                    <a><i class="fas fa-phone"></i> </span></a>
+                  </div>
+                  <div class="right_right_bottom1">
+                    <li>
+                      <span>Get A Quote Today</span>
+                      <a href="tel:+92-336-8288669">+92-336-8288669</a>
+                    </li>
+                  </div>
+                </div> -->
+              <div class="call_Section2">
+                <span> <i class="fas fa-phone"></i> </span>
+                <div class="callnow">
+                  <h6>Get A Guote Today</h6>
+                  <a href="tel:042352033513">042352033513</a>
+                </div>
+              </div>
+              <div class="right_bottm2">
+                <img src="images/sec22.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hm-sec3">
+    <div class="container">
+      <div class="top-sec3">
+        <div class="row align-items-center">
+          <div class="mx-auto col-md-8 col-lg-8 text-center">
+            <h2 class="site_heading">
+              Pace Cross Operates Across Three Primary Service Categories
+            </h2>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="bottom-sec3">
+        <!-- <div class="row">
+            <div class="col-md-6 col-lg-4 gy-3">
+              <div class="inner_Emperial">
+                <img src="images/e1.png" class="img-fluid" alt="" />
+                <div class="emperial_cover">
+                  <h6>Freight Forwarding</h6>
+                  <div class="freight_image">
+                    <img src="images/freight.png" alt="" />
+                  </div>
+                  <p>
+                    We streamline global logistics through reliable and
+                    efficient freight forwarding services, ensuring your
+                    shipments reach their destination.
+                  </p>
+                  <a href="freight.html">
+                    <span>Learn More</span>
+                    <i class="fas fa-long-arrow-alt-right"></i
+                  ></a>
+                </div>
+                <div class="middle_emperial_Cover">
+                  <h6>Freight Forwarding</h6>
+                  <a href="freight.html">
+                    <span>Learn More</span>
+                    <i class="fas fa-long-arrow-alt-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 gy-3">
+              <div class="inner_Emperial">
+                <img src="images/e2.png" class="img-fluid" alt="" />
+                <div class="emperial_cover">
+                  <h6>General Order Supplies</h6>
+                  <div class="freight_image">
+                    <img src="images/general_order.png" alt="" />
+                  </div>
+                  <p>
+                    Emperial Enterprises offers high-quality general supplies,
+                    designed to meet the diverse needs of corporations.
+                  </p>
+                  <a href="general_order.html">
+                    <span>Learn More</span>
+                    <i class="fas fa-long-arrow-alt-right"></i
+                  ></a>
+                </div>
+                <div class="middle_emperial_Cover">
+                  <h6>General Order Supplies</h6>
+                  <a href="general_order.html">
+                    <span>Learn More</span>
+                    <i class="fas fa-long-arrow-alt-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 gy-3">
+              <div class="inner_Emperial">
+                <img src="images/e3.png" class="img-fluid" alt="" />
+                <div class="emperial_cover">
+                  <h6>Maintenance & Renovation</h6>
+                  <div class="freight_image">
+                    <img src="images/maintenance.png" alt="" />
+                  </div>
+                  <p>
+                    Our team delivers professional facility upkeep, renovations,
+                    and ongoing maintenance services to ensure your operations
+                    remain seamless.
+                  </p>
+                  <a href="maintenance.html">
+                    <span>Learn More</span>
+                    <i class="fas fa-long-arrow-alt-right"></i
+                  ></a>
+                </div>
+                <div class="middle_emperial_Cover">
+                  <h6>Maintenance & Renovation</h6>
+                  <a href="maintenance.html">
+                    <span>Learn More</span>
+                    <i class="fas fa-long-arrow-alt-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        <div class="parentinner">
+          <div class="inner_Emperial">
+            <img src="images/e1.png" class="img-fluid" alt="" />
+            <div class="emperial_cover">
+              <h6>Freight Forwarding</h6>
+              <div class="freight_image">
+                <img src="images/freight.png" alt="" />
+              </div>
+              <p>
+                We streamline global logistics through reliable and efficient freight forwarding services, ensuring your shipments reach their destination.
+              </p>
+              <a href="#">
+                <span>Learn More</span>
+                <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+            <div class="middle_emperial_Cover">
+              <h6>Freight Forwarding</h6>
+              <a href="#">
+                <span>Learn More</span>
+                <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+          <div class="inner_Emperial">
+            <img src="images/e2.png" class="img-fluid" alt="" />
+            <div class="emperial_cover">
+              <h6>GAC Sure Cargo
+                Insurance</h6>
+              <div class="freight_image">
+                <img src="images/cargo.png" alt="" />
+              </div>
+              <p>
+                Moving cargo from one location to another is a complex business. That’s why insurance is a must. We offer customers the peace of mind.
+
+              </p>
+              <a href="#">
+                <span>Learn More</span>
+                <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+            <div class="middle_emperial_Cover">
+              <h6>GAC Sure Cargo
+                Insurance</h6>
+              <a href="#" >
+                <span>Learn More</span>
+                <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+          <div class="inner_Emperial">
+            <img src="images/e3.png" class="img-fluid" alt="" />
+            <div class="emperial_cover">
+              <h6>Ocean Freight</h6>
+              <div class="freight_image">
+                <img src="images/ocean_freight.png" alt="" />
+              </div>
+              <p>
+                Provide a fast, reliable and friendly service to meet your requirements. SRS-Group of Comapny comprehensive services keep your costs under control by the use of a variety.
+              </p>
+              <a href="#">
+                <span>Learn More</span>
+                <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+            <div class="middle_emperial_Cover">
+              <h6>Ocean Freight</h6>
+              <a href="#">
+                <span>Learn More</span>
+                <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hm-sec4">
+    <div class="container">
+      <div class="top-sec4">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="site_heading">
+
+
+              To Become One of the Leading Versatile Group <br class="remove_on_Samll" /> Providing Excellent, Comprehensive, Reliable
+            </h2>
+            <p>
+              Srs-goc has become one of the most unique groups offering multiple solutions under one umbrella.Cost effective solutions in the respective segments and attaining customers satisfaction according to their needs, wants and demands.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_sec4">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="sec1_botttom">
+              <div class="sec4_img">
+                <img src="images/h1.png" alt="" />
+              </div>
+              <div class="sec4_img">
+                <img src="images/h2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sec2_bottom">
+              <h6>WHo We Are</h6>
+              <h2>Efficiency, Flexibility and Quality Service</h2>
+              <p>
+                With a customized Touch, State of the Art Technology, combined with purchasing advantages.<br class="remove_on_Samll" /><br class="remove_on_Samll" />
+                Our aim is to provide sustainable and reliable solutions to our valued clients in order to let them yield maximum benefits out of their venture with us.
+              </p>
+              <a href="#" class="inner_btn">Contact Us <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sec1_botttom">
+              <div class="sec4_img">
+                <img src="images/h3.png" alt="" />
+              </div>
+              <div class="sec4_img">
+                <img src="images/h4.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="third_Sec4">
+        <div class="row text-center">
+          <div class="col-md-12 text-center">
+            <h2 class="site_heading text-center">
+              Our Aim is to Provide Sustainable and    <br class="remove_on_Samll" />  Reliable Solutions 
+
+            </h2>
+          </div>
+
+          <div class="col-md-6 col-lg-6">
+            <div class="top_third_Sec4">
+              <div class="third_Sec_image">
+                <img src="images/x1.png" alt="" />
+              </div>
+              <div class="third_sec_Content">
+                <div class="icon_image">
+                  <img src="images/icon_box1.png" alt="" />
+                </div>
+                <h6>Delivered Duty Paid (DDP) logistics</h6>
+                <p>
+                  Our DDP service ensures that your goods are delivered with
+                  all customs, duties.
+                </p>
+              </div>
+            </div>
+            <div class="top_third_Sec4">
+              <div class="third_sec_Content">
+                <div class="icon_image">
+                  <img src="images/icon_box1.png" alt="" />
+                </div>
+                <h6>Your Trusted Partner for Tailored Business Solutions</h6>
+              </div>
+              <div class="third_Sec_image last_image">
+                <img src="images/x2.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6">
+            <div class="top_third_Sec4">
+              <div class="third_Sec_image">
+                <img src="images/x3.png" alt="" />
+              </div>
+              <div>
+                <div class="third_sec_Content second_box">
+                  <span>99% </span>
+                  <div class="icon_image">
+                    <img src="images/freight.png" alt="" />
+                  </div>
+                  <h6>Satisfaction Guaranteed</h6>
+                  <p>
+                    Our team will go above and beyond to make sure our
+                    customers are more then satisfied!
+                  </p>
+                </div>
+                <div class="inner_third_sec">
+                  <span>Social Links</span>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"> <i class="fab fa-instagram"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#"> <i class="fab fa-linkedin"></i> </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="bottom_third_Sec42">
+              <h6>Streamlining Operations, Simplifying Solutions</h6>
+              <p>
+                At Emperial, our goal is to be your single-window solution for
+                all operational needs. Our commitment to excellence ensures
+                that we deliver customized, comprehensive solutions that
+                perfectly align with your business goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hm-sec5">
+    <div class="container">
+      <div class="top_sec5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="site_heading">
+              We Serve Our Clients Through a Comprehensive Four-step Process
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="bottomm_Sec5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left_Sec5">
+              <img src="images/sec5.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right_Sec5">
+              <div class="inner_right_Sec5">
+                <h3>1. Business Objectives</h3>
+                <p>Client specifies what product they need.</p>
+              </div>
+              <div class="inner_right_Sec5">
+                <h3>2. Competitive Rates</h3>
+                <p>We can deliver the product promptly at the right price.</p>
+              </div>
+              <div class="inner_right_Sec5">
+                <h3>3.Single Source for All Supplies</h3>
+                <p>
+                  We negotiate and deliver the product to our client's
+                  complete satisfaction.
+                </p>
+              </div>
+              <div class="inner_right_Sec5">
+                <h3>4. Get Industry Insights & Expert Advice</h3>
+                <p>
+                  We assist client in selection process through an industry
+                  tested standard.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hm-sec6">
+    <div class="container">
+      <div class="top_sec6 text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="site_heading">
+          
+
+              Your Trusted Partner for Comprehensive <br class="remove_on_Samll" />
+Business Solutions
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_sec6">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="meet_parent">
+              <div class="meet_image">
+                <img src="images/p1.png" alt="" />
+              </div>
+              <div class="meet_Content">
+                <h6>One-Stop Solution</h6>
+                <p>From international freight forwarding to aviation services and travel & tourism, we cover it all under one umbrella.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="meet_parent">
+              <div class="meet_image">
+                <img src="images/p2.png" alt="" />
+              </div>
+              <div class="meet_Content">
+                <h6>Expertise That Delivers</h6>
+                <p>Our experienced team ensures efficiency, reliability, and customized solutions tailored to your needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="meet_parent">
+              <div class="meet_image">
+                <img src="images/p3.png" alt="" />
+              </div>
+              <div class="meet_Content">
+                <h6>Global Reach, Local Excellence</h6>
+                <p>With representations of world-leading airlines, we combine global standards with personalized service.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hm-sec7">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-md-5">
+          <div class="left_form">
+            <div class="heading_cont">
+              <h6>Contact Info</h6>
+            </div>
+
+            <div class="call_Section">
+              <span> <i class="fas fa-phone"></i> </span>
+              <div class="callnow">
+                <h6>Call Us</h6>
+                <a href="tel:042352033513">042352033513</a>
+              </div>
+            </div>
+            <div class="call_Section2">
+              <span> <i class="fas fa-envelope"></i> </span>
+              <div class="callnow">
+                <h6>Email</h6>
+                <a href="mailto:info@srsgroup.com.pk">info@srsgroup.com.pk</a>
+              
+              </div>
+            </div>
+            <div class="call_Section2">
+              <span> <i class="fas fa-map-marker-alt"></i> </span>
+              <div class="callnow">
+                <h6>Our Location</h6>
+                <a href="#">Office No.209 A-II  <br />
+                  Johar Town Lahore.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="right_form">
+            <h6 class="site_heading">Send Us a Message</h6>
+            <p>
+              SRS-GOC offers unsurpassed outsourcing solution to its Business Partners.
+            </p>
+            <form action="#" id="main_form">
+              <div class="row">
+                <div class="col-md-6 col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingfirstname" placeholder="First Name" />
+                    <label for="floatingfirstname">First Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatinglastname" placeholder="Last Name" />
+                    <label for="floatinglastname">Last Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingnumber" placeholder="0336-000-000-0" />
+                    <label for="floatingnumber">Phone Number</label>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingsubject" placeholder="xyz" />
+                    <label for="floatingsubject">Subject</label>
+                  </div>
+                </div>
+
+                <div class="col-md-12 mb-4">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Type Your Message</label>
+                  </div>
+                </div>
+                <div class="col-md-12 text-center form_btn">
+                  <a href="" class="inner_btn">Submit</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="widget">
+            <div class="footer_logo">
+              <img src="images/footer_logo.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="widget">
+            <h5>Quick Links</h5>
+            <ul>
+              <li>
+                <a href="./">Home</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact_info widget">
+            <h5>Contact Info</h5>
+
+            <div class="call_Section">
+              <span> <i class="fas fa-phone"></i> </span>
+              <div class="callnow">
+                <h6>Call Us</h6>
+                <a href="tel:042352033513">042352033513</a>
+              </div>
+            </div>
+            <div class="call_Section2">
+              <span> <i class="fas fa-envelope"></i> </span>
+              <div class="callnow">
+                <h6>Email</h6>
+                <a href="mailto:info@srsgroup.com.pk">info@srsgroup.com.pk</a>
+              </div>
+            </div>
+            <div class="call_Section2">
+              <span> <i class="fas fa-map-marker-alt"></i> </span>
+              <div class="callnow">
+                <h6>Our Location</h6>
+                <a href="#">Office No.209 A-II  <br />
+                  Johar Town Lahore.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="widget">
+            <h5>Social Links</h5>
+            <ul>
+              <li>
+                <a href="">Facebook</a>
+              </li>
+              <li>
+                <a href="">Instagram</a>
+              </li>
+              <li>
+                <a href="">Twitter</a>
+              </li>
+              <li>
+                <a href="">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright text-center">
+    <div class="container">
+      <p class="text-center">
+        © COPYRIGHT 2024 | ALL RIGHTS RESERVED SRS-GOC 
+        |<span> POWERED BY Decimal 10</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="whatsup">
+    <a href="//wa.me/042352033513">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Wrap every letter in a span
+    const h1 = document.querySelector(".ml2");
+    let words = h1.textContent.split(" ");
+    words = words.map(
+      (word) =>
+        `<span class="words_wrap">${word.replace(
+          /./g,
+          '<span class="letter">$&</span>'
+        )}</span>`
+    );
+    h1.innerHTML = words.join(" ");
+
+    anime
+      .timeline({
+        loop: true,
+      })
+      .add({
+        targets: ".ml2 .letter",
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: (el, i) => 70 * i,
+      })
+      .add({
+        targets: ".ml2",
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 10000,
+      });
+
+    // var textWrapper = document.querySelector(".ml2 .letters");
+    // textWrapper.innerHTML = textWrapper.textContent.replace(
+    //   /\w+/g,
+    //   (word) =>
+    //     '<div class="words_wrap">' +
+    //     word.replace(/./g, '<span class="letter">$&</span>') +
+    //     "</div>"
+    // );
+  </script>
+  <!-- wrapper end -->
 </body>
+
 </html>
